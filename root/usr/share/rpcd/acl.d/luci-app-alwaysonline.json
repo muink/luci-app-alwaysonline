@@ -2,6 +2,9 @@
   "luci-app-alwaysonline": {
     "description": "Grant access to alwaysonline procedures",
     "read": {
+      "ubus": {
+        "service": [ "list" ]
+      },
       "uci": [ "alwaysonline" ]
     },
     "write": {
