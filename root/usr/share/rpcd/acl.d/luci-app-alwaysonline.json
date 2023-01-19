@@ -1,0 +1,11 @@
+{
+  "luci-app-alwaysonline": {
+    "description": "Grant access to alwaysonline procedures",
+    "read": {
+      "uci": [ "alwaysonline" ]
+    },
+    "write": {
+      "uci": [ "alwaysonline" ]
+    }
+  }
+}
