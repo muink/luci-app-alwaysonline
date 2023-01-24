@@ -1,4 +1,4 @@
-LuCI AlwaysOnline
+LuCI [AlwaysOnline][]
 =================
 
 Hijack/bypass Windows NCSI and iOS portal detection on a network level.
@@ -35,6 +35,9 @@ popd
 make menuconfig
 # Start compiling
 make package/luci-app-alwaysonline/compile V=99
+```
+
+[AlwaysOnline]: https://github.com/muink/openwrt-alwaysonline
 
 ### License
 
