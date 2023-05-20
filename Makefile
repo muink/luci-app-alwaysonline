@@ -7,11 +7,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-alwaysonline
-PKG_VERSION:=20230118
+PKG_VERSION:=20230521
 
 LUCI_TITLE:=LuCI Support for alwaysonline
 LUCI_PKGARCH:=all
-LUCI_DEPENDS:=+alwaysonline
+LUCI_DEPENDS:=
 
 LUCI_DESCRIPTION:=Hijack/bypass Windows NCSI and iOS portal detection
 
