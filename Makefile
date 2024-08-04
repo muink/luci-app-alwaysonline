@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-alwaysonline
-PKG_VERSION:=20240730
+PKG_VERSION:=20240803
 
 LUCI_TITLE:=LuCI Support for alwaysonline
 LUCI_PKGARCH:=all
